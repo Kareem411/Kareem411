@@ -33,5 +33,5 @@ AI-powered incident management · Role-based multi-tenant architecture · Secure
 ---
 
 <div align="center">
-<sub>Building systems that scale cleanly — from cache eviction strategies to enterprise SaaS architecture.</sub>
+<sub>Building systems that scale cleanly — from small strategies to enterprise SaaS architecture.</sub>
 </div>
