@@ -15,7 +15,7 @@
 **[TriCache](https://github.com/Kareem411/TriCache)** — Ultra-performance unified caching engine for Node.js
 Zero-JSON binary protocol · Hard multi-tenant isolation · Inlined WASM Bloom filters · Polymorphic hardware ciphers (AES-GCM/CTR/XOR)
 
-**Voicase** — Enterprise SaaS for EU Whistleblowing Directive compliance
+**[Voicase](https://www.voicase.me)** — Enterprise SaaS for EU Whistleblowing Directive compliance
 AI-powered incident management · Role-based multi-tenant architecture · Secure audit-trail report lifecycle
 
 ---
