@@ -13,7 +13,7 @@
 ### Core Engineering
 
 **[ParadiseLabs](https://github.com/Kareem411)** — Autonomous Agent Orchestration Systems
-*   **ACT (Agent Coordination Toolkit):** Built a multi-agent CLI harness decoupling decision, execution, and verification; manages Tier-1 in-process agent swarms orchestrating headless Tier-2 workers via SPIL tasks.
+*   **ACT (Agent Coordination Toolkit):** Architected a multi-agent CLI harness decoupling decision, execution, and verification; manages Tier-1 in-process agent swarms orchestrating headless Tier-2 workers via SPIL tasks.
 *   **GLUE Framework:** Developed an open-source linking engine with a custom declarative DSL to instantly instantiate collaborative agent teams.
 *   **MCP Infrastructure:** Implemented terminal-driven Model Context Protocol (MCP) server discovery and dynamic tool provisioning.
 
@@ -21,8 +21,9 @@
 *   Engineered a unified caching layer featuring a zero-JSON binary protocol, hard multi-tenant isolation, inlined WASM Bloom filters, and polymorphic hardware ciphers (AES-GCM/CTR).
 
 **[VoiCase](https://www.voicase.me)** — Enterprise Compliance SaaS (EU Whistleblowing Directive)
-*   Architected and deployed a secure, production-ready B2B platform with row-level data isolation (Postgres RLS) and private VPC environments. 
-*   Built a distributed, asynchronous web scraping and lead generation engine (`engine.py`) using Python extraction workers.
+*   **End-to-End Product Architecture:** Solely engineered a production-ready B2B platform, single-handedly translating complex legal compliance frameworks into a secure, high-performance architecture.
+*   **Secure Lifecycle & Routing Engine:** Designed and built the core case routing engine, integrating strict dual-authorization workflows, automated incident management, and an unalterable, secure audit-trail report lifecycle.
+*   **Ironclad Data Isolation:** Implemented strict multi-tenant row-level security (RLS) and isolated VPC environments to guarantee absolute informant anonymity and GDPR/ISO 27001 readiness.
 
 ---
 
