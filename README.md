@@ -98,7 +98,7 @@
 ### 📜 Verified Credentials & Accolades
 
 <details>
-<summary><b>▶ Click to Expand Verified Diplomas, Accolades & Certifications (8 Verified)</b></summary>
+<summary><b>Verified Credentials & Diplomas (8)</b></summary>
 <br />
 
 | Specialization | Credential / Competency | Issuing Authority & Instructors | Live Verification |
@@ -114,54 +114,18 @@
 
 <br />
 
-#### 🏆 Visual Credential Gallery *(Click Any Certificate to Verify)*
-
-<div align="center">
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <b>NVIDIA — Accelerated Computing with CUDA Python</b><br/><br/>
-      <a href="https://learn.nvidia.com/certificates?id=f2_w8rKQRdaDTkXCX7EI3A"><img src="assets/certificates/nvidia_cuda_accelerated_computing.png" alt="NVIDIA CUDA Accelerated Computing" width="100%"/></a>
-    </td>
-    <td width="50%" align="center">
-      <b>DeepLearning.AI — Machine Learning in Production & Data Lifecycle</b><br/><br/>
-      <a href="https://coursera.org/share/5c5568f799dbbe624652b1f5b91e457a"><img src="assets/certificates/deeplearning_ml_in_production.png" alt="Machine Learning in Production" width="100%"/></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>Stanford University — Machine Learning</b><br/><br/>
-      <a href="https://coursera.org/verify/X9PYY4R4Y7HQ"><img src="assets/certificates/stanford_machine_learning.png" alt="Stanford Machine Learning" width="100%"/></a>
-    </td>
-    <td width="50%" align="center">
-      <b>CU Boulder — Real-Time Embedded Systems</b><br/><br/>
-      <a href="https://coursera.org/verify/XE3V3JTHL6VQ"><img src="assets/certificates/cu_boulder_real_time_embedded.png" alt="Real-Time Embedded Systems" width="100%"/></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>GPT-4 Powered App & Evals Hackathon</b><br/><br/>
-      <a href="https://lablab.ai/u/@kareem_ahmad916/clu2z2tpe002d13ylfyla03yc"><img src="assets/certificates/GPT-4_hackathon.webp" alt="GPT-4 Hackathon" width="100%"/></a>
-    </td>
-    <td width="50%" align="center">
-      <b>AI Startup Hackathon (Episode 2)</b><br/><br/>
-      <a href="https://lablab.ai/u/@kareem_ahmad916/clhj412zb0077cp0sr1cbwo7n"><img src="assets/certificates/AI_Startup_Hackathon.webp" alt="AI Startup Hackathon" width="100%"/></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>Udacity — Advanced Data Analysis</b><br/><br/>
-      <a href="https://confirm.udacity.com/AJPE9J4T"><img src="assets/certificates/udacity_data_analysis_advanced.png" alt="Udacity Advanced Data Analysis" width="100%"/></a>
-    </td>
-    <td width="50%" align="center">
-      <b>Udacity — Data Analysis Professional</b><br/><br/>
-      <a href="https://confirm.udacity.com/3A9LRMGG"><img src="assets/certificates/udacity_data_analysis_professional.png" alt="Udacity Data Analysis Professional" width="100%"/></a>
-    </td>
-  </tr>
-</table>
-
-</div>
+<p align="center">
+  <a href="https://learn.nvidia.com/certificates?id=f2_w8rKQRdaDTkXCX7EI3A"><img src="assets/certificates/nvidia_cuda_accelerated_computing.png" width="23%" alt="NVIDIA CUDA" /></a>
+  <a href="https://coursera.org/share/5c5568f799dbbe624652b1f5b91e457a"><img src="assets/certificates/deeplearning_ml_in_production.png" width="23%" alt="DeepLearning.AI" /></a>
+  <a href="https://coursera.org/verify/X9PYY4R4Y7HQ"><img src="assets/certificates/stanford_machine_learning.png" width="23%" alt="Stanford ML" /></a>
+  <a href="https://coursera.org/verify/XE3V3JTHL6VQ"><img src="assets/certificates/cu_boulder_real_time_embedded.png" width="23%" alt="CU Boulder" /></a>
+</p>
+<p align="center">
+  <a href="https://lablab.ai/u/@kareem_ahmad916/clu2z2tpe002d13ylfyla03yc"><img src="assets/certificates/GPT-4_hackathon.webp" width="23%" alt="LabLab GPT-4" /></a>
+  <a href="https://lablab.ai/u/@kareem_ahmad916/clhj412zb0077cp0sr1cbwo7n"><img src="assets/certificates/AI_Startup_Hackathon.webp" width="23%" alt="LabLab Startup" /></a>
+  <a href="https://confirm.udacity.com/AJPE9J4T"><img src="assets/certificates/udacity_data_analysis_advanced.png" width="23%" alt="Udacity Advanced" /></a>
+  <a href="https://confirm.udacity.com/3A9LRMGG"><img src="assets/certificates/udacity_data_analysis_professional.png" width="23%" alt="Udacity Pro" /></a>
+</p>
 
 </details>
 
