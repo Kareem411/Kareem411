@@ -9,6 +9,7 @@
 [![TriCache](https://img.shields.io/badge/TriCache-Documentation%20Portal-0284c7?style=flat-square&logo=gitbook&logoColor=white)](https://kareem411.github.io/TriCache/)
 [![npm](https://img.shields.io/badge/npm-tricache%20v0.8.0-cb3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/tricache)
 [![VoiCase](https://img.shields.io/badge/SaaS-VoiCase.me-10b981?style=flat-square&logo=safari&logoColor=white)](https://www.voicase.me)
+[![Workabix](https://img.shields.io/badge/Enterprise-Workabix%20(In%20Dev)-047857?style=flat-square&logo=target&logoColor=white)](#-workabix--distributed-enterprise-hris--applicant-tracking-system-in-development)
 
 </div>
 
@@ -24,6 +25,14 @@
 * **Zero-Dependency Cloud Snapshots & Envelope Encryption**: Standalone AWS SigV4 signer for instant cold-start hydration from S3 / Cloudflare R2; AES-256-GCM / CTR envelope encryption with key-rotation fallbacks.
 * **Turnkey Ecosystem Adapters**: Native modules for **Next.js 16/15** App Router (`cacheHandlers`), **NestJS** dynamic modules, **Prisma** `$extends`, **Drizzle ORM** `withCache`, **Express & Fastify** (RFC 7232 weak ETag & `304 Not Modified`), and zero-Node **Cloudflare Workers / Edge Isolates**.
 * **Observability Suite**: Real-time SSE Web admin dashboard, Prometheus golden-signals text exporter, pre-built Grafana dashboards, and terminal top monitor (`npx tricache top`).
+
+#### 💼 Workabix — Distributed Enterprise HRIS & Applicant Tracking System *(In Active Development)*
+*Full-lifecycle talent acquisition and human capital management platform engineered as a distributed microservices monorepo.*
+* **Distributed Domain Isolation**: Turborepo monorepo separating distinct service domains (`identity-svc`, `jobs-svc`, `candidates-svc`, `employees-svc`) backed by NestJS and coordinated asynchronously over a **Kafka (KRaft)** event bus.
+* **High-Throughput Go Workers**: High-performance resume parsing, semantic entity extraction, and asynchronous pipeline ingestion built in Go for maximum memory efficiency under heavy concurrency.
+* **Dual-Plane Web Architecture**: Next.js App Router featuring high-speed ISR/SSR for public careers portals alongside a high-density, real-time operator workspace built with custom "Tech-Grotesque" design tokens.
+* **Resilient Data Layer**: PostgreSQL managed via Drizzle ORM, multi-tenant RBAC security guards, Redis caching, and OpenSearch for instant full-text candidate indexing.
+* **Cloud Infrastructure as Code**: Automated provisioning via Terraform spanning AWS ECS Fargate, Aurora Serverless, Amazon MQ, and S3 asset vaults.
 
 #### 🧠 [CANA](https://github.com/Kareem411/cana) — Continuously Adaptive Neural Architecture
 *Context-substrate agent adaptation operating around frozen models (API or local).*
@@ -68,9 +77,9 @@
 |:---|:---|
 | **Core Languages** | TypeScript · Go · Python · C · SQL · WebAssembly (WASM) |
 | **Autonomous Systems & AI** | Model Context Protocol (MCP) · LLM Orchestration · Multi-Agent Swarms · RAG Architectures · PyTorch · OpenCV |
-| **High-Performance Backend** | Node.js · Fastify · Express · Next.js · NestJS · FastAPI · REST · WebSockets · gRPC |
-| **Distributed Storage & Caching** | TriCache · Redis / Valkey · PostgreSQL (`pgvector`) · Supabase · POSIX `/dev/shm` · SQLite |
-| **Cloud & Infrastructure** | AWS (ECS, Fargate, Bedrock, Aurora Serverless, S3) · Cloudflare Workers / R2 · Docker · Kubernetes · CI/CD |
+| **High-Performance Backend** | Node.js · Fastify · Express · Next.js · NestJS · FastAPI · REST · WebSockets · gRPC · Kafka (KRaft) |
+| **Distributed Storage & Caching** | TriCache · Redis / Valkey · PostgreSQL (`pgvector`) · OpenSearch · Supabase · POSIX `/dev/shm` · SQLite |
+| **Cloud & Infrastructure** | AWS (ECS, Fargate, Bedrock, Aurora Serverless, S3) · Cloudflare Workers / R2 · Docker · Kubernetes · Terraform · CI/CD |
 
 ---
 
