@@ -1,44 +1,81 @@
 <div align="center">
 
-<h1>Kareem Mohammad</h1>
+# Kareem Mohammad
 
-<p>Applied AI Engineer & Technical Architect</p>
+**Applied AI Engineer & Systems Architect**  
+*Autonomous Agent Swarms &nbsp;·&nbsp; Low-Latency Distributed Caching &nbsp;·&nbsp; Zero-Trust Enterprise Infrastructure*
 
-<p><sub>Autonomous Agent Orchestration &nbsp;·&nbsp; High-Performance Distributed Systems &nbsp;·&nbsp; Multi-Tenant B2B Infrastructure</sub></p>
+[![GitHub](https://img.shields.io/badge/GitHub-Kareem411-181717?style=flat-square&logo=github)](https://github.com/Kareem411)
+[![TriCache](https://img.shields.io/badge/TriCache-Documentation%20Portal-0284c7?style=flat-square&logo=gitbook&logoColor=white)](https://kareem411.github.io/TriCache/)
+[![npm](https://img.shields.io/badge/npm-tricache%20v0.8.0-cb3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/tricache)
+[![VoiCase](https://img.shields.io/badge/SaaS-VoiCase.me-10b981?style=flat-square&logo=safari&logoColor=white)](https://www.voicase.me)
 
 </div>
 
 ---
 
-### Core Engineering
+### 🏛️ Flagship Systems & Core Engineering
 
-**[ParadiseLabs](https://github.com/Kareem411)** — Autonomous Agent Orchestration Systems
-*   **ACT (Agent Coordination Toolkit):** Architected a multi-agent CLI harness decoupling decision, execution, and verification; manages Tier-1 in-process agent swarms orchestrating headless Tier-2 workers via SPIL tasks.
-*   **GLUE Framework:** Developed an open-source linking engine with a custom declarative DSL to instantly instantiate collaborative agent teams.
-*   **MCP Infrastructure:** Implemented terminal-driven Model Context Protocol (MCP) server discovery and dynamic tool provisioning.
+#### ⚡ [TriCache](https://github.com/Kareem411/TriCache) — Enterprise Three-Tier Distributed Caching Engine for Node.js
+*High-throughput, multi-tier caching engine absorbing 95%+ of queries locally with warm in-memory reads at **2.81 million ops/sec (356 ns/op)**.*
+* **Three-Tier Storage Hierarchy**: Automatic cascading through **L1 RAM** (adaptive W-TinyLFU + Count-Min Sketch) $\rightarrow$ **L1.5 Off-Heap POSIX `/dev/shm` tmpfs & NVMe spill** $\rightarrow$ **L2 Clustered Redis/Valkey**.
+* **Thundering-Herd Prevention**: In-process Singleflight promise coalescing eliminates duplicate DB queries under 10k-concurrency spikes, combined with background Stale-While-Revalidate (SWR) revalidation.
+* **WASM & Mathematical Internals**: Inlined WebAssembly Murmur3 64-bit Bloom filters for zero-GC key-existence checks; zero-JSON MsgPack binary serialization reducing heap pressure by up to 68%.
+* **Zero-Dependency Cloud Snapshots & Envelope Encryption**: Standalone AWS SigV4 signer for instant cold-start hydration from S3 / Cloudflare R2; AES-256-GCM / CTR envelope encryption with key-rotation fallbacks.
+* **Turnkey Ecosystem Adapters**: Native modules for **Next.js 16/15** App Router (`cacheHandlers`), **NestJS** dynamic modules, **Prisma** `$extends`, **Drizzle ORM** `withCache`, **Express & Fastify** (RFC 7232 weak ETag & `304 Not Modified`), and zero-Node **Cloudflare Workers / Edge Isolates**.
+* **Observability Suite**: Real-time SSE Web admin dashboard, Prometheus golden-signals text exporter, pre-built Grafana dashboards, and terminal top monitor (`npx tricache top`).
 
-**[TriCache](https://github.com/Kareem411/TriCache)** — Ultra-Performance Caching Engine for Node.js
-*   Engineered a unified caching layer featuring a zero-JSON binary protocol, hard multi-tenant isolation, inlined WASM Bloom filters, and polymorphic hardware ciphers (AES-GCM/CTR).
+#### 🧠 [CANA](https://github.com/Kareem411/cana) — Continuously Adaptive Neural Architecture
+*Context-substrate agent adaptation operating around frozen models (API or local).*
+* **Governed Context Substrate**: Replaces the catastrophic forgetting and instability of weight fine-tuning with a governed context layer that adapts agent behavior dynamically at runtime.
+* **Deterministic Assembly & Hybrid Retrieval**: Merges structured temporal knowledge graphs, sparse lexical search, and dense vector embeddings (`pgvector`) into verified, context-budgeted prompt frames.
+* **Append-Only Capture Ledger**: Continuous ingestion stream capturing interaction telemetry, tool results, and execution trajectories for asynchronous background distillation.
+* **Behavioral Verification Gates**: Strictly validates model outputs through offline behavioral invariant gates before actions are committed to production systems.
 
-**[VoiCase](https://www.voicase.me)** — Enterprise Compliance SaaS (EU Whistleblowing Directive)
-*   **End-to-End Product Architecture:** Solely engineered a production-ready B2B platform, single-handedly translating complex legal compliance frameworks into a secure, high-performance architecture.
-*   **Secure Lifecycle & Routing Engine:** Designed and built the core case routing engine, integrating strict dual-authorization workflows, automated incident management, and an unalterable, secure audit-trail report lifecycle.
-*   **Ironclad Data Isolation:** Implemented strict multi-tenant row-level security (RLS) and isolated VPC environments to guarantee absolute informant anonymity and GDPR/ISO 27001 readiness.
+#### 🤖 [ParadiseLabs](https://github.com/Kareem411) — Autonomous Agent Orchestration & MCP Infrastructure
+*Decoupled multi-agent execution harnesses and tool virtualization fabric.*
+* **ACT (Agent Coordination Toolkit)**: Multi-agent CLI harness decoupling planning, tool invocation, and formal verification; operates Tier-1 in-process agent swarms directing headless Tier-2 worker processes via structured SPIL tasks.
+* **GLUE Framework**: Declarative DSL linking engine designed to dynamically assemble, instantiate, and route collaborative agent collectives.
+* **Model Context Protocol (MCP)**: Implemented terminal-driven MCP server discovery, schema validation, and dynamic capability injection across local and remote agent environments.
+
+#### 🛡️ [VoiCase](https://www.voicase.me) — Enterprise Compliance & Whistleblowing SaaS
+*Turnkey B2B incident management platform engineered to European Union Whistleblowing Directive & GDPR standards.*
+* **End-to-End Product Architecture**: Solely engineered the production B2B platform, converting complex legal privacy requirements into high-assurance cloud software.
+* **Cryptographic Case Lifecycle**: Multi-stage case routing engine featuring dual-authorization workflows, immutable audit logs, and tamper-evident incident reporting.
+* **Ironclad Isolation**: Multi-tenant PostgreSQL Row-Level Security (RLS) combined with isolated VPC network boundaries to guarantee zero metadata leakage and absolute informant anonymity.
 
 ---
 
-### Technical Stack
+### 📐 Architectural Principles
 
-| Category | Technologies |
-|---|---|
-| **Languages** | TypeScript · Go · Python · C · SQL |
-| **Backend & Architecture** | Node.js · React/Next.js · FastAPI · Multi-Tenant Architecture · REST & WebSockets |
-| **Cloud & DevOps** | AWS (ECS, Fargate, Bedrock, Aurora Serverless) · Docker · Kubernetes · CI/CD Pipelines |
-| **Data & Cache** | PostgreSQL (pgvector) · Supabase · Redis · TriCache · Query Optimization |
-| **AI & Protocols** | Model Context Protocol (MCP) · LLM Orchestration · RAG Pipelines · PyTorch · OpenCV |
+```
+  ┌───────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
+  │   Zero-GC & Off-Heap  │      │  Deterministic AI Gates │      │  Defense-in-Depth RLS   │
+  │  /dev/shm POSIX tmpfs │ ───► │  Governed context layer │ ───► │ Cryptographic audit log │
+  │  2.81M ops/s caching  │      │  Decoupled agent swarms │      │  Zero metadata leakage  │
+  └───────────────────────┘      └─────────────────────────┘      └─────────────────────────┘
+```
+
+* **Deterministic AI over Stochastic Chaos**: Grounding LLMs with strict behavioral boundaries, governed context substrates, and deterministic multi-phase evaluation.
+* **Low-Latency Systems Engineering**: Squeezing hardware limits with POSIX `/dev/shm` shared memory, WASM SIMD filters, and binary protocols rather than bloated serialization layers.
+* **Zero-Trust Multi-Tenancy**: Enforcing strict cryptographic boundaries, envelope encryption, and non-bypassable database policies across all enterprise tiers.
+
+---
+
+### 🛠️ Technical Stack & Arsenal
+
+| Domain | Technologies & Infrastructure |
+|:---|:---|
+| **Core Languages** | TypeScript · Go · Python · C · SQL · WebAssembly (WASM) |
+| **Autonomous Systems & AI** | Model Context Protocol (MCP) · LLM Orchestration · Multi-Agent Swarms · RAG Architectures · PyTorch · OpenCV |
+| **High-Performance Backend** | Node.js · Fastify · Express · Next.js · NestJS · FastAPI · REST · WebSockets · gRPC |
+| **Distributed Storage & Caching** | TriCache · Redis / Valkey · PostgreSQL (`pgvector`) · Supabase · POSIX `/dev/shm` · SQLite |
+| **Cloud & Infrastructure** | AWS (ECS, Fargate, Bedrock, Aurora Serverless, S3) · Cloudflare Workers / R2 · Docker · Kubernetes · CI/CD |
 
 ---
 
 <div align="center">
-<sub>Architecting autonomous systems and infrastructure that scale deterministically.</sub>
+
+<sub>Architecting autonomous systems and low-latency infrastructure that scale deterministically.</sub>
+
 </div>
