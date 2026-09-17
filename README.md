@@ -2,6 +2,8 @@
 
 # Kareem Mohammad
 
+<img src="https://user-images.githubusercontent.com/74038190/212744287-14f66c13-5458-40dc-9244-8ff533fc8f4a.gif" width="100%" />
+
 **Applied AI Engineer & Systems Architect**  
 *Autonomous Agent Swarms &nbsp;·&nbsp; Low-Latency Distributed Caching &nbsp;·&nbsp; Zero-Trust Enterprise Infrastructure*
 
