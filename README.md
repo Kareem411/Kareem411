@@ -26,6 +26,17 @@
 * **Turnkey Ecosystem Adapters**: Native modules for **Next.js 16/15** App Router (`cacheHandlers`), **NestJS** dynamic modules, **Prisma** `$extends`, **Drizzle ORM** `withCache`, **Express & Fastify** (RFC 7232 weak ETag & `304 Not Modified`), and zero-Node **Cloudflare Workers / Edge Isolates**.
 * **Observability Suite**: Real-time SSE Web admin dashboard, Prometheus golden-signals text exporter, pre-built Grafana dashboards, and terminal top monitor (`npx tricache top`).
 
+```
+┌──────────────────────────────────────┬─────────────┬─────────────┬───────────────────────────┐
+│ Tier / Architecture Path             │ Throughput  │ p50 Latency │ Memory & Eviction Engine  │
+├──────────────────────────────────────┼─────────────┼─────────────┼───────────────────────────┤
+│ TriCache L1 (In-Memory RAM)          │  2.82 M/s   │   396 ns    │ W-TinyLFU + Count-Min     │
+│ TriCache L1.5 (/dev/shm POSIX tmpfs) │  851.5 K/s  │   1.17 µs   │ Zero-GC Off-Heap Spill    │
+│ TriCache Singleflight Stampede Gate  │   10k req   │  1 origin   │ Zero herd collapse        │
+│ Standalone Remote Redis (Network IO) │   75.0 K/s  │  13.30 µs   │ Network + JSON parse cost │
+└──────────────────────────────────────┴─────────────┴─────────────┴───────────────────────────┘
+```
+
 #### 💼 Workabix — Distributed Enterprise HRIS & Applicant Tracking System *(In Active Development)*
 *Full-lifecycle talent acquisition and human capital management platform engineered as a distributed microservices monorepo.*
 * **Distributed Domain Isolation**: Turborepo monorepo separating distinct service domains (`identity-svc`, `jobs-svc`, `candidates-svc`, `employees-svc`) backed by NestJS and coordinated asynchronously over a **Kafka (KRaft)** event bus.
