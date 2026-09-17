@@ -10,6 +10,7 @@
 [![npm](https://img.shields.io/badge/npm-tricache%20v0.8.0-cb3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/package/tricache)
 [![VoiCase](https://img.shields.io/badge/SaaS-VoiCase.me-10b981?style=flat-square&logo=safari&logoColor=white)](https://www.voicase.me)
 [![Workabix](https://img.shields.io/badge/Enterprise-Workabix%20(In%20Dev)-047857?style=flat-square&logo=target&logoColor=white)](#-workabix--distributed-enterprise-hris--applicant-tracking-system-in-development)
+[![Credentials](https://img.shields.io/badge/Credentials-NVIDIA%20%7C%20Stanford%20%7C%20DeepLearning.AI-8b5cf6?style=flat-square&logo=academia&logoColor=white)](#-verified-credentials--accolades)
 
 </div>
 
@@ -91,6 +92,78 @@
 | **High-Performance Backend** | Node.js · Fastify · Express · Next.js · NestJS · FastAPI · REST · WebSockets · gRPC · Kafka (KRaft) |
 | **Distributed Storage & Caching** | TriCache · Redis / Valkey · PostgreSQL (`pgvector`) · OpenSearch · Supabase · POSIX `/dev/shm` · SQLite |
 | **Cloud & Infrastructure** | AWS (ECS, Fargate, Bedrock, Aurora Serverless, S3) · Cloudflare Workers / R2 · Docker · Kubernetes · Terraform · CI/CD |
+
+---
+
+### 📜 Verified Credentials & Accolades
+
+<details>
+<summary><b>▶ Click to Expand Verified Diplomas, Accolades & Certifications (8 Verified)</b></summary>
+<br />
+
+| Specialization | Credential / Competency | Issuing Authority & Instructors | Verification |
+|:---|:---|:---|:---|
+| **GPU & Accelerated Compute** | Fundamentals of Accelerated Computing with CUDA Python | **NVIDIA Deep Learning Institute (DLI)** | Competency Certificate |
+| **Production AI & MLOps** | Machine Learning in Production | **DeepLearning.AI** (Andrew Ng) | [Verify 85TDULS4NV9H](https://coursera.org/verify/85TDULS4NV9H) |
+| **Low-Latency & Systems** | Real-Time Embedded Systems Concepts & Practices | **University of Colorado Boulder** (Dr. Sam Siewert) | [Verify XE3V3JTHL6VQ](https://coursera.org/verify/XE3V3JTHL6VQ) |
+| **Statistical Machine Learning** | Machine Learning Specialization | **Stanford University** (Andrew Ng) | Coursera / Stanford Online |
+| **Agentic AI & LLMs** | GPT-4 Hackathon | **OpenAI / LabLab.ai** | Visual Credential |
+| **AI Venture Engineering** | AI Startup Hackathon | **AI Startup Collective** | Visual Credential |
+| **Quantitative Analytics** | Advanced Data Analysis Nanodegree | **Udacity** | [Confirm AJPE9J4T](https://confirm.udacity.com/AJPE9J4T) |
+| **Quantitative Analytics** | Data Analysis Professional Nanodegree | **Udacity** | [Confirm 3A9LRMGG](https://confirm.udacity.com/3A9LRMGG) |
+
+<br />
+
+#### 🏆 Visual Credential Gallery
+
+<div align="center">
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <b>NVIDIA — Accelerated Computing with CUDA Python</b><br/><br/>
+      <img src="assets/certificates/nvidia_cuda_accelerated_computing.png" alt="NVIDIA CUDA Accelerated Computing" width="100%"/>
+    </td>
+    <td width="50%" align="center">
+      <b>DeepLearning.AI — Machine Learning in Production</b><br/><br/>
+      <img src="assets/certificates/deeplearning_ml_in_production.png" alt="Machine Learning in Production" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>CU Boulder — Real-Time Embedded Systems</b><br/><br/>
+      <img src="assets/certificates/cu_boulder_real_time_embedded.png" alt="Real-Time Embedded Systems" width="100%"/>
+    </td>
+    <td width="50%" align="center">
+      <b>Stanford University — Machine Learning</b><br/><br/>
+      <img src="assets/certificates/stanford_machine_learning.png" alt="Stanford Machine Learning" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>GPT-4 Hackathon</b><br/><br/>
+      <img src="assets/certificates/GPT-4_hackathon.webp" alt="GPT-4 Hackathon" width="100%"/>
+    </td>
+    <td width="50%" align="center">
+      <b>AI Startup Hackathon</b><br/><br/>
+      <img src="assets/certificates/AI_Startup_Hackathon.webp" alt="AI Startup Hackathon" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>Udacity — Advanced Data Analysis</b><br/><br/>
+      <img src="assets/certificates/datanalaysisadvanced.png" alt="Udacity Advanced Data Analysis" width="100%"/>
+    </td>
+    <td width="50%" align="center">
+      <b>Udacity — Data Analysis Professional</b><br/><br/>
+      <img src="assets/certificates/datanalysisprofessional.png" alt="Udacity Data Analysis Professional" width="100%"/>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+</details>
 
 ---
 
