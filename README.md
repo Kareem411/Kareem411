@@ -101,20 +101,20 @@
 <summary><b>▶ Click to Expand Verified Diplomas, Accolades & Certifications (8 Verified)</b></summary>
 <br />
 
-| Specialization | Credential / Competency | Issuing Authority & Instructors | Verification |
+| Specialization | Credential / Competency | Issuing Authority & Instructors | Live Verification |
 |:---|:---|:---|:---|
-| **GPU & Accelerated Compute** | Fundamentals of Accelerated Computing with CUDA Python | **NVIDIA Deep Learning Institute (DLI)** | Competency Certificate |
-| **Production AI & MLOps** | Machine Learning in Production | **DeepLearning.AI** (Andrew Ng) | [Verify 85TDULS4NV9H](https://coursera.org/verify/85TDULS4NV9H) |
+| **GPU & Accelerated Compute** | Fundamentals of Accelerated Computing with CUDA Python | **NVIDIA Deep Learning Institute (DLI)** | [Verify NVIDIA ID f2_w8rKQR](https://learn.nvidia.com/certificates?id=f2_w8rKQRdaDTkXCX7EI3A) |
+| **Production AI & MLOps** | Machine Learning in Production & Data Lifecycle | **DeepLearning.AI** (Andrew Ng) | [Verify 85TDULS4NV9H](https://coursera.org/verify/85TDULS4NV9H) &middot; [ML in Production](https://coursera.org/share/5c5568f799dbbe624652b1f5b91e457a) &middot; [Data Lifecycle](https://coursera.org/share/70959031c716036d8f17951926a63bc1) |
+| **Statistical Machine Learning** | Machine Learning Specialization | **Stanford University** (Andrew Ng) | [Verify X9PYY4R4Y7HQ](https://coursera.org/verify/X9PYY4R4Y7HQ) |
 | **Low-Latency & Systems** | Real-Time Embedded Systems Concepts & Practices | **University of Colorado Boulder** (Dr. Sam Siewert) | [Verify XE3V3JTHL6VQ](https://coursera.org/verify/XE3V3JTHL6VQ) |
-| **Statistical Machine Learning** | Machine Learning Specialization | **Stanford University** (Andrew Ng) | Coursera / Stanford Online |
-| **Agentic AI & LLMs** | GPT-4 Hackathon | **OpenAI / LabLab.ai** | Visual Credential |
-| **AI Venture Engineering** | AI Startup Hackathon | **AI Startup Collective** | Visual Credential |
+| **Agentic AI & LLMs** | GPT-4 Powered App Creation & Evals Hackathon | **OpenAI / LabLab.ai** | [Verify lablab.ai Submission](https://lablab.ai/u/@kareem_ahmad916/clu2z2tpe002d13ylfyla03yc) |
+| **AI Venture Engineering** | Build Your AI Startup Hackathon (Ep. 2) | **LabLab.ai** | [Verify lablab.ai Submission](https://lablab.ai/u/@kareem_ahmad916/clhj412zb0077cp0sr1cbwo7n) |
 | **Quantitative Analytics** | Advanced Data Analysis Nanodegree | **Udacity** | [Confirm AJPE9J4T](https://confirm.udacity.com/AJPE9J4T) |
 | **Quantitative Analytics** | Data Analysis Professional Nanodegree | **Udacity** | [Confirm 3A9LRMGG](https://confirm.udacity.com/3A9LRMGG) |
 
 <br />
 
-#### 🏆 Visual Credential Gallery
+#### 🏆 Visual Credential Gallery *(Click Any Certificate to Verify)*
 
 <div align="center">
 
@@ -122,41 +122,41 @@
   <tr>
     <td width="50%" align="center">
       <b>NVIDIA — Accelerated Computing with CUDA Python</b><br/><br/>
-      <img src="assets/certificates/nvidia_cuda_accelerated_computing.png" alt="NVIDIA CUDA Accelerated Computing" width="100%"/>
+      <a href="https://learn.nvidia.com/certificates?id=f2_w8rKQRdaDTkXCX7EI3A"><img src="assets/certificates/nvidia_cuda_accelerated_computing.png" alt="NVIDIA CUDA Accelerated Computing" width="100%"/></a>
     </td>
     <td width="50%" align="center">
-      <b>DeepLearning.AI — Machine Learning in Production</b><br/><br/>
-      <img src="assets/certificates/deeplearning_ml_in_production.png" alt="Machine Learning in Production" width="100%"/>
+      <b>DeepLearning.AI — Machine Learning in Production & Data Lifecycle</b><br/><br/>
+      <a href="https://coursera.org/share/5c5568f799dbbe624652b1f5b91e457a"><img src="assets/certificates/deeplearning_ml_in_production.png" alt="Machine Learning in Production" width="100%"/></a>
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
-      <b>CU Boulder — Real-Time Embedded Systems</b><br/><br/>
-      <img src="assets/certificates/cu_boulder_real_time_embedded.png" alt="Real-Time Embedded Systems" width="100%"/>
-    </td>
     <td width="50%" align="center">
       <b>Stanford University — Machine Learning</b><br/><br/>
-      <img src="assets/certificates/stanford_machine_learning.png" alt="Stanford Machine Learning" width="100%"/>
+      <a href="https://coursera.org/verify/X9PYY4R4Y7HQ"><img src="assets/certificates/stanford_machine_learning.png" alt="Stanford Machine Learning" width="100%"/></a>
+    </td>
+    <td width="50%" align="center">
+      <b>CU Boulder — Real-Time Embedded Systems</b><br/><br/>
+      <a href="https://coursera.org/verify/XE3V3JTHL6VQ"><img src="assets/certificates/cu_boulder_real_time_embedded.png" alt="Real-Time Embedded Systems" width="100%"/></a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <b>GPT-4 Hackathon</b><br/><br/>
-      <img src="assets/certificates/GPT-4_hackathon.webp" alt="GPT-4 Hackathon" width="100%"/>
+      <b>GPT-4 Powered App & Evals Hackathon</b><br/><br/>
+      <a href="https://lablab.ai/u/@kareem_ahmad916/clu2z2tpe002d13ylfyla03yc"><img src="assets/certificates/GPT-4_hackathon.webp" alt="GPT-4 Hackathon" width="100%"/></a>
     </td>
     <td width="50%" align="center">
-      <b>AI Startup Hackathon</b><br/><br/>
-      <img src="assets/certificates/AI_Startup_Hackathon.webp" alt="AI Startup Hackathon" width="100%"/>
+      <b>AI Startup Hackathon (Episode 2)</b><br/><br/>
+      <a href="https://lablab.ai/u/@kareem_ahmad916/clhj412zb0077cp0sr1cbwo7n"><img src="assets/certificates/AI_Startup_Hackathon.webp" alt="AI Startup Hackathon" width="100%"/></a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
       <b>Udacity — Advanced Data Analysis</b><br/><br/>
-      <img src="assets/certificates/datanalaysisadvanced.png" alt="Udacity Advanced Data Analysis" width="100%"/>
+      <a href="https://confirm.udacity.com/AJPE9J4T"><img src="assets/certificates/datanalaysisadvanced.png" alt="Udacity Advanced Data Analysis" width="100%"/></a>
     </td>
     <td width="50%" align="center">
       <b>Udacity — Data Analysis Professional</b><br/><br/>
-      <img src="assets/certificates/datanalysisprofessional.png" alt="Udacity Data Analysis Professional" width="100%"/>
+      <a href="https://confirm.udacity.com/3A9LRMGG"><img src="assets/certificates/datanalysisprofessional.png" alt="Udacity Data Analysis Professional" width="100%"/></a>
     </td>
   </tr>
 </table>
