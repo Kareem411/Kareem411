@@ -152,11 +152,11 @@
   <tr>
     <td width="50%" align="center">
       <b>Udacity — Advanced Data Analysis</b><br/><br/>
-      <a href="https://confirm.udacity.com/AJPE9J4T"><img src="assets/certificates/datanalaysisadvanced.png" alt="Udacity Advanced Data Analysis" width="100%"/></a>
+      <a href="https://confirm.udacity.com/AJPE9J4T"><img src="assets/certificates/udacity_data_analysis_advanced.png" alt="Udacity Advanced Data Analysis" width="100%"/></a>
     </td>
     <td width="50%" align="center">
       <b>Udacity — Data Analysis Professional</b><br/><br/>
-      <a href="https://confirm.udacity.com/3A9LRMGG"><img src="assets/certificates/datanalysisprofessional.png" alt="Udacity Data Analysis Professional" width="100%"/></a>
+      <a href="https://confirm.udacity.com/3A9LRMGG"><img src="assets/certificates/udacity_data_analysis_professional.png" alt="Udacity Data Analysis Professional" width="100%"/></a>
     </td>
   </tr>
 </table>
